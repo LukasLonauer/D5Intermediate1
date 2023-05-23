@@ -1,0 +1,88 @@
+
+
+/* Outline of the Document */
+body {
+    outline: 2px solid black;
+    width: 600px;
+    padding: 5px;
+}
+
+/* big black bar */
+.fatbox {
+    width: 100%;
+    height: 10px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.fatbox-small {
+    width: 100%;
+    height: 6px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.fatbox-vsmall {
+    width: 100%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* Defines the Boxes for the Input fields */
+div[class^="xx"] {
+    /* outline: 2px solid red; */
+    display: inline-block;
+    width: 66%;
+    height: auto;
+    margin: 1px;
+}
+
+div.xx2 {
+    width: 15%;
+    text-align: right;
+}
+
+div.xx3 {
+    width: 15%;
+    text-align: right;
+}
+
+div.xx4 {
+    width: 30%;
+    text-align: right;
+}
+
+/* only used to indent the text and hr */
+.inline {
+    position: relative;
+    left: 20px;
+}
+
+/* only used to hide overflow of the hr */
+.superdiv {
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+/* Minitable */
+div[class^="yy"] {
+    /* outline: 2px solid red; */
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    margin: 1px;
+}
+
+/* smaller indent for Minitable */
+.inline2 {
+    position: relative;
+    left: 10px;
+}
+
+div.xx69 {
+    justify-content: center;
+    /* outline: 2px solid red; */
+    display: flex;
+    margin: 0 auto;
+}
